@@ -17,7 +17,7 @@
     padding: 15px;
     }
     
-    /* back button in navbar 
+    /* back button in navbar  */
     .btn {
     color: orange !important;
     background: #232323;
@@ -30,7 +30,7 @@
         background: green!important;
     
     }
-    */
+    
 
     body {
         background: #232323;
@@ -95,39 +95,10 @@
 
     }
     
-    .btn-group-horizontal {
-        
-        border-bottom: 3px solid grey; 
-        text-align: center;
-    }
-
+    
    
     
-    /* white buttons on second page */
-    .btn-primary {
-        background-color: white !important;
-        font-size: 30px !important;
-        margin: 10px;
-        
-    }
     
-    .btn-primary:hover {
-    
-        background: #232323!important;
-    
-    }
-    /* black buttons on second page */
-    .btn-secondary {
-        background-color: white !important;
-        font-size: 30px !important;
-        margin: 10px;
-    }
-    
-    .btn-secondary:hover {
-    
-        background: #232323!important;
-    
-    }
     
     
     
