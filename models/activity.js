@@ -1,15 +1,7 @@
 module.exports = function(sequelize, DataTypes) {
-  var Author = sequelize.define("Activity", {
-
-    name: DataTypes.STRING
+  var Activity = sequelize.define("Activity", {
+    text: DataTypes.STRING,
+    complete: DataTypes.BOOLEAN
   });
-
-  Activity.associate = function(models) {
-    
-    Activity.hasMany(models.Post, {
-      onDelete: "cascade"
-    });
-  };
-
   return Activity;
 };
