@@ -27,7 +27,9 @@
     
     .btn:hover {
     
-        background: green!important;
+        background:#232323;
+        color: white!important;
+
     
     }
     
