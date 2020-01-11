@@ -5,22 +5,13 @@ var path = require("path");
 module.exports = function(app) {
 
   app.get("/", function(req, res) {
-    res.sendFile(path.join(__dirname, "../public/main.html"));
+    res.sendFile(path.join(__dirname, "../public/index.html"));
   });
 
 
-  app.get("/cms", function(req, res) {
-    res.sendFile(path.join(__dirname, "../public/cms.html"));
+  app.get("/dashboard", function(req, res) {
+    res.sendFile(path.join(__dirname, "../public/dashboard.html"));
   });
 
-
-  app.get("/main", function(req, res) {
-    res.sendFile(path.join(__dirname, "../public/main.html"));
-  });
-
-
-  app.get("/activities", function(req, res) {
-    res.sendFile(path.join(__dirname, "../public/activity-manager.html"));
-  });
 
 };
