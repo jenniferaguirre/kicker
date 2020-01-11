@@ -1,0 +1,83 @@
+/* nav bar */
+.navbar {
+    border-bottom: 3px solid grey;
+    padding: 20px !important;
+    background: #232323 !important;
+    }
+    
+    /* logo in navbar */
+    .navbar-brand {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px !important;
+    color: orange !important;
+    background-color: #232323;
+    border: solid;
+    border-color: grey;
+    border-radius: 5%;
+    padding: 15px;
+    }
+    
+    /* back button in navbar */
+
+    .dash {
+
+        background: #232323!important;
+        border: solid;
+        border-color: grey;
+        color: orange!important;
+    }
+
+    .dash:hover {
+
+        color:white!important;
+
+    }
+
+    
+    body {
+        background: #232323;
+    }
+
+        /* Buttons for the categories begins here */
+
+
+    /* control category buttons in general */
+    .btn-group-horizontal {
+
+        text-align: center;
+        border-bottom: 3px solid grey!important; 
+
+    }
+
+    /* controls odds on second page */
+    .btn-primary {
+        background-color: white !important;
+        font-size: 30px !important;
+        margin: 10px;
+        color: orange!important;
+        border: solid;
+        border-color:grey !important;
+    }
+    
+    .btn-primary:hover {
+    
+        background: #232323!important;
+    
+    }
+    /* controls evens on second page */
+    .btn-secondary {
+        background-color: white !important;
+        font-size: 30px !important;
+        margin: 10px;
+        color:orange!important;
+        border: solid;
+        border-color:grey !important;
+    }
+    
+    .btn-secondary:hover {
+    
+        background: #232323!important;
+    
+    }
+
+    
