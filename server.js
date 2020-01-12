@@ -2,8 +2,9 @@
 var express = require("express");
 
 
+
 var app = express();
-var PORT = process.env.PORT || 8080;
+var PORT = process.env.PORT || 8088;
 
 
 var db = require("./models");
@@ -15,7 +16,7 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-
+require("./routes/html-routes.js")(app);
 require("./routes/api-routes.js")(app);
 
 
