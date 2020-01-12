@@ -155,12 +155,12 @@ $(document).ready(function() {
 
   // This function figures out which post we want to delete and then calls
   // deletePost
-  function handlePostDelete() {
-    var currentPost = $(this)
+  function handleActivityDelete() {
+    var currentActivity = $(this)
       .parent()
       .parent()
       .data("post");
-    deletePost(currentPost.id);
+    deleteActivity(currentActivity.id);
   }
 
   // This function figures out which post we want to edit and takes it to the
