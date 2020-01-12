@@ -1,6 +1,6 @@
 module.exports = function(sequelize, DataTypes) {
   var Activity = sequelize.define("Activity", {
-    act: {
+    activity: {
       type: DataTypes.STRING,
       allowNull: false,
       validate: {
