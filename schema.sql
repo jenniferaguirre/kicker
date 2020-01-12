@@ -1,6 +1,7 @@
-DROP DATABASE IF EXISTS activitydeck_db;
-CREATE DATABASE activitydeck_db;
-USE activitydeck_db;
+-- DROP DATABASE IF EXISTS activitydeck_db;
+-- CREATE DATABASE activitydeck_db;
+-- USE activitydeck_db;
+
 
 CREATE TABLE deck (
 id INT NOT NULL auto_increment,
@@ -9,6 +10,7 @@ category VARCHAR (100) NOT NULL,
 howto VARCHAR (7000) NOT NULL,
 PRIMARY KEY (id)
 );
+
 
 INSERT INTO deck (act, category, howto)
 Values ("Take-Downs", "Jiu Jitsu", "1) Double Leg Takedown
