@@ -1,6 +1,6 @@
 module.exports = function(sequelize, DataTypes) {
   var Activity = sequelize.define("Activity", {
-    activity: {
+    act: {
       type: DataTypes.STRING,
       allowNull: false,
       validate: {
@@ -8,7 +8,7 @@ module.exports = function(sequelize, DataTypes) {
       }
     },
     howto: {
-      type: DataTypes.TEXT,
+      type: DataTypes.STRING,
       allowNull: false,
       len: [1]
     },
