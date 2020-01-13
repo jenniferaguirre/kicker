@@ -51,7 +51,6 @@ $(document).ready(function() {
     }
   
     // This function constructs a post's HTML
-   
     function createNewRow(activity) {
       var newActivityCard = $("<div>");
         newActivityCard.addClass("card");
@@ -64,6 +63,7 @@ $(document).ready(function() {
       editBtn.text("EDIT");
       editBtn.addClass("edit btn btn-default");
       var newActivityAct = $("<h2>");
+      var newActivityDate = $("<small>")
       var newActivityCategory = $("<h5>");
         newActivityCategory.text(activity.category);
         newActivityCategory.css({
@@ -77,14 +77,15 @@ $(document).ready(function() {
       var newActivityhowto = $("<p>");
       newActivityAct.text(activity.act + " ");
       newActivityhowto.text(activity.howto);
-      
-      
-      
+    //   var formattedDate = new Date(activity.createdAt);
+    // formattedDate = moment(formattedDate).format("MMMM Do YYYY, h:mm:ss a");
+    // newActivityDate.text(formattedDate);
+    // newActivityAct.append(newActivityDate)
       newActivityCardHeading.append(deleteBtn);
       newActivityCardHeading.append(editBtn);
       newActivityCardHeading.append(newActivityAct);
       newActivityCardHeading.append(newActivityCategory);
-      newActivityCardBody.append(newActivityhowto);
+      newActivityCardhowto.append(newActivityhowto);
       newActivityCard.append(newActivityCardHeading);
       newActivityCard.append(newActivityCardhowto);
       newActivityCard.data("activity", activity);

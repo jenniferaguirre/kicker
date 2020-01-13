@@ -8,7 +8,7 @@ module.exports = function(sequelize, DataTypes) {
       }
     },
     howto: {
-      type: DataTypes.STRING(7000),
+      type: DataTypes.TEXT,
       allowNull: false,
       len: [1]
     },
@@ -19,7 +19,7 @@ module.exports = function(sequelize, DataTypes) {
   
   });
 
-Activity.sync();
+
 return Activity;
 
   //  Activity.associate = function(models) {
