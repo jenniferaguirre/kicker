@@ -1,6 +1,6 @@
 module.exports = function(sequelize, DataTypes) {
   var Activity = sequelize.define("Activity", {
-    activity: {
+    act: {
       type: DataTypes.STRING,
       allowNull: false,
       validate: {
@@ -16,12 +16,15 @@ module.exports = function(sequelize, DataTypes) {
       type: DataTypes.STRING,
       defaultValue: "Jiu Jitsu"
     }
+  
   });
+
+
 return Activity;
 
-  // Post.associate = function(models) {
+  //  Activity.associate = function(models) {
    
-  //   Post.belongsTo(models.Activity, {
+  //   Activity.belongsTo(models.Activity, {
   //     foreignKey: {
   //       allowNull: false
   //     }
