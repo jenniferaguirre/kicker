@@ -8,7 +8,7 @@ module.exports = function(sequelize, DataTypes) {
       }
     },
     howto: {
-      type: DataTypes.STRING,
+      type: DataTypes.STRING(7000),
       allowNull: false,
       len: [1]
     },
@@ -16,12 +16,15 @@ module.exports = function(sequelize, DataTypes) {
       type: DataTypes.STRING,
       defaultValue: "Jiu Jitsu"
     }
+  
   });
+
+Activity.sync();
 return Activity;
 
-  // Post.associate = function(models) {
+  //  Activity.associate = function(models) {
    
-  //   Post.belongsTo(models.Activity, {
+  //   Activity.belongsTo(models.Activity, {
   //     foreignKey: {
   //       allowNull: false
   //     }
