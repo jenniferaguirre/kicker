@@ -1,0 +1,50 @@
+/* nav bar */
+.navbar {
+    border-bottom: 3px solid grey;
+    padding: 20px !important;
+    background: #232323 !important;
+    }
+    
+    /* logo in navbar */
+    .navbar-brand {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px !important;
+    color: orange !important;
+    background-color: #232323;
+    border: solid;
+    border-color: grey;
+    border-radius: 5%;
+    padding: 15px;
+    }
+
+    #act {
+        padding-top: 11px;
+    }
+    #category {
+        padding-top: 6px;
+        padding-bottom: 5px;
+    }
+
+.container {
+    background: white;
+    width: 60%;
+}
+
+body {
+    background: #232323;
+    
+}
+
+.btn {
+    background: #232323;
+    color: orange;
+}
+
+.btn:hover {
+
+    background:#232323;
+        color: white!important;
+
+}
+
+

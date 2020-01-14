@@ -6,18 +6,33 @@
   <title>CMS</title>
   <!-- Latest compiled and minified CSS & JS -->
   <link href="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0/flatly/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css" media="screen" title="no title">
+  <link rel="stylesheet" href="assets/css/cms.css" media="screen" title="no title">
   <script src="https://code.jquery.com/jquery.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
+
+<!--nav bar-->
+<nav class="navbar navbar-light">
+  <a class="navbar-brand">Activity Deck</a>
+  <div class="col-sm-2 mt-4">
+    <a class="btn btn-light" href="/dashboard">Go to Dashboard</a>
+  </div>
+ <!-- <form class="form-inline"> -->
+      <!-- <a type="submit" class="dash btn btn-outline-success my-2 my-sm-0" href="/">Back</a> -->
+    <!-- </form> -->
+  </nav>  
+
+
+
+
+
+
   <div class="container">
     <div class="row">
       <div class="row">
-        <div class="col-sm-2 mt-4">
-          <a class="btn btn-light" href="/dashboard">Go to Dashboard</a>
-        </div>
+        
       </div>
       <div class="col-md-5 offset-md-3">
         <form id="cms">
@@ -28,7 +43,7 @@
             <label for="howto">How To:</label>
             <textarea class="form-control" rows="10" id="howto"></textarea>
             <div class="form-group">
-              <label for="category">Select Category:</label>
+              <label for= "category">Select Category:</label>
               <select class="custom-select" id="category">
                 <option value="Jiu Jitsu">Jiu Jitsu</option>
                   <option value="Dance">Dance</option>
