@@ -4,14 +4,15 @@ body {
     font-family: sans-serif;
 }
 /* the container */
-.animation {
+.animationdiv {
     position: relative;
     width: 1400px;
     height: 200px;
-    margin: 240px auto;
+    margin: auto;
 }
 /* the boxes in general */
-.animation .box {
+
+.animationdiv .box {
     position: relative;
     width: calc(270px - 20px);
     height: calc(200px - 20px);
@@ -24,7 +25,7 @@ body {
 }
 
 /* icon */
-.animation .box .icon {
+.animationdiv .box .icon {
     position: absolute;
     top: 0;
     left: 0;
@@ -35,7 +36,7 @@ body {
     z-index: 1; 
 }
 /* what happens to icon when hovering over it */
-.animation .box:hover .icon {
+.animationdiv .box:hover .icon {
     top: 20px;
     left: calc(50% - 40px);
     width: 80px;
@@ -43,7 +44,7 @@ body {
     border-radius: 50%;
 }
 
-.animation .box .icon .fa {
+.animationdiv .box .icon .fa {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -53,11 +54,11 @@ body {
     color: #fff;
 }
 
-.animation .box:hover .icon .fa {
+.animationdiv .box:hover .icon .fa {
     font-size: 40px;
 }
 /* what goes inside the box */
-.animation .box .content {
+.animationdiv .box .content {
     position: absolute;
     top: 100%;
     height: calc(100% - 100px);
@@ -68,66 +69,66 @@ body {
     opacity: 0;
 }
 /* when you hover over the content */
-.animation .box:hover .content {
+.animationdiv .box:hover .content {
     top: 100px;
     opacity: 1;
 }
 
 /* the subtitle in the box (name of category) */
-.animation .box .content h3 {
+.animationdiv .box .content h3 {
     margin: 0 0 10px;
     padding: 0;
     color: #fff;
     font-size: 24px;
 }
 /* The description in each box */
-.animation .box .content p {
+.animationdiv .box .content p {
     margin: 0;
     padding: 0;
     color: #fff;
 }
 
 /* first box */
-.animation .box:nth-child(1) .icon {
+.animationdiv .box:nth-child(1) .icon {
     background: #319635;
 }
 
-.animation .box:nth-child(1) {
+.animationdiv .box:nth-child(1) {
     background: #4caf50;
 }
 
 /* second box */
-.animation .box:nth-child(2) .icon {
+.animationdiv .box:nth-child(2) .icon {
     background: #d03852;
 }
 
-.animation .box:nth-child(2) {
+.animationdiv .box:nth-child(2) {
     background: #f54967;
 }
 
 /* third box */
-.animation .box:nth-child(3) .icon {
+.animationdiv .box:nth-child(3) .icon {
     background: #23798e;
 }
 
-.animation .box:nth-child(3) {
+.animationdiv .box:nth-child(3) {
     background: #328fa5;
 }
 
 /* fourth box */
-.animation .box:nth-child(4) .icon {
+.animationdiv .box:nth-child(4) .icon {
     background: purple;
 }
 
-.animation .box:nth-child(4) {
+.animationdiv .box:nth-child(4) {
     background: rgb(192, 121, 192);
 }
 
 /* fifth box */
-.animation .box:nth-child(5) .icon {
+.animationdiv .box:nth-child(5) .icon {
     background: orange;
 }
 
-.animation .box:nth-child(5) {
+.animationdiv .box:nth-child(5) {
     background: rgb(241, 183, 73);
 }
