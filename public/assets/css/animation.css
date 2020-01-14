@@ -8,13 +8,13 @@ body {
     position: relative;
     width: 1400px;
     height: 200px;
-    margin:  240px auto;
+    margin: 240px auto;
 }
 /* the boxes in general */
 .animation .box {
     position: relative;
-    width: calc(400px - 30px);
-    height: calc(300px - 30px);
+    width: calc(270px - 20px);
+    height: calc(200px - 20px);
     background: #000;
     float: left;
     margin: 15px;
@@ -112,4 +112,22 @@ body {
 
 .animation .box:nth-child(3) {
     background: #328fa5;
+}
+
+/* fourth box */
+.animation .box:nth-child(4) .icon {
+    background: purple;
+}
+
+.animation .box:nth-child(4) {
+    background: rgb(192, 121, 192);
+}
+
+/* fifth box */
+.animation .box:nth-child(5) .icon {
+    background: orange;
+}
+
+.animation .box:nth-child(5) {
+    background: rgb(241, 183, 73);
 }
