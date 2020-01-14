@@ -72,7 +72,7 @@ $(document).ready(function() {
         "margin-top":
         "-15px"
       });
-      var newActivityCardhowto = $("<div>");
+      var newActivityCardhowto = $("<pre>");
       newActivityCardhowto.addClass("card-body");
       var newActivityhowto = $("<p>");
       newActivityAct.text(activity.act + " ");
