@@ -69,6 +69,18 @@
         text-align: center;
         font-size: x-large;
     }
+    .container2 {
+        border: solid;
+        width: 100% !important;
+        height: 220px;
+        /* display: inline-block; */
+        clear:both;
+        background: #232323;
+        color: white;
+        border: 3px solid grey;
+        text-align: center;
+        font-size: x-large;
+    }
         
     h1 {
         margin-top: 20px !important;
