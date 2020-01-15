@@ -18,7 +18,7 @@ module.exports =
   },
   "production": {
     "username": "	i2sdzvf5o2bcqcpa",
-    "password": "	i2sdzvf5o2bcqcpa",
+    "password": "	tf87k4i02i94yxga",
     "database": "lufxfk9lb9i3e8ad",
     "host": "nba02whlntki5w2p.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "port": 3306,
