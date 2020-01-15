@@ -1,3 +1,4 @@
+module.exports = 
 {
   "development": {
     "username": "root",
@@ -23,4 +24,4 @@
     "port": 3306,
     "dialect": "mysql"
   }
-}
+};
